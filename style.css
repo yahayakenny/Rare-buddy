@@ -56,32 +56,15 @@ body {
   
 }
 
+
 .timer {
-    padding: 20px;
-    
+    padding: 30px;
+    font-size: 20px;
       
-}
-.timer {
-    border-right: 1px solid white;
 }
 
 .timer h1 {
-    font-weight: bold;
-    font-size: 50px ;
-}
-.timers {
-    padding: 20px;
-    
-      
-}
-
-.timer {
-    border-right: 1px solid white;
-}
-
-.timers h1 {
-    font-weight: bold;
-    font-size: 50px ;
+    font-size: 60px;
 }
 
 h5 {
