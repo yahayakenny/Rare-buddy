@@ -43,6 +43,9 @@ body {
         
           
     }
+    .timer h1 {
+        font-size: 30px;
+    }
 
 }
 
@@ -64,7 +67,7 @@ body {
 }
 
 .timer h1 {
-    font-size: 60px;
+    font-size: 45px;
 }
 
 h5 {
