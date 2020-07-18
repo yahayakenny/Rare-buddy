@@ -1,0 +1,84 @@
+html, body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #232323 !important;
+    color: white !important;
+}
+
+.navbar {
+    padding: 50px !important;
+}
+.name p  {
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+.logo img{
+    width: 100%;
+}
+
+.fab {
+    padding: 50px !important;
+    font-size: 24px;
+}
+
+@media (max-width: 767px){
+    .logo {
+        margin-top: 150px;
+    }
+
+    .countdown {
+        width: 40% !important;
+    }
+    .timers {
+        padding: 10px;
+        
+          
+    }
+
+}
+
+
+
+
+/* Count Down timer */
+.countdown {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.timer {
+    padding: 30px;
+    
+      
+}
+.timer {
+    border-right: 1px solid white;
+}
+
+.timer h1 {
+    font-weight: bold;
+    font-size: 50px ;
+}
+.timers {
+    padding: 30px;
+    
+      
+}
+
+.timer {
+    border-right: 1px solid white;
+}
+
+.timers h1 {
+    font-weight: bold;
+    font-size: 50px ;
+}
+
+h5 {
+  font-family: 'Lato';
+}
