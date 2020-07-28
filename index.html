@@ -23,7 +23,6 @@
      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 </head>
 
-
 <body>
   <nav class="navbar">
     <span class="navbar-brand mb-0 h1">
@@ -87,6 +86,13 @@
               </div>  
           </div>     
       </div>
+
+      <!-- GSAP -->
+      <div class="overlay">
+        <div class="layer layer-1"></div>
+        <div class="layer layer-2"></div>
+        <div class="layer layer-3"></div>
+    </div>
   </section>
 
 
@@ -94,9 +100,9 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+<!-- SCROLL REVEAL -->
 <script>
 	window.sr = ScrollReveal();
-
 sr.reveal('.logo', {
 	duration: 2000,
 	origin: 'bottom',
@@ -112,8 +118,17 @@ sr.reveal('.timer', {
     delay: 1000,
 	viewFactor: 0.2
 });
-</script>  
+</script>
 
-    <script src = "script.js"></script>
+<!-- GSAP CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js"></script> 
+<script>
+  gsap.to('.layer-1', {y: '-100vh', delay: .9});
+  gsap.to('.layer-2', {y: '-100vh', delay: 1.5});
+  gsap.to('.layer-3', {y: '-100vh', delay: 1.9});
+  gsap.to('.overlay', {y: '-100vh', delay: 2.5}); 
+</script>
+
+<script src = "script.js"></script>
 </body>
 </html>
