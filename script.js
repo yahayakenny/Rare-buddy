@@ -5,7 +5,7 @@ const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
 const dateToday = new Date();
 
-const dateAtNewYear = new Date('August 01 2020 00:00:00')
+const dateAtNewYear = new Date('August 31 2020 00:00:00')
 
 
 function dynamicDateChange () {
