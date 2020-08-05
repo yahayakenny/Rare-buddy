@@ -16,8 +16,18 @@ body {
 .name p  {
     text-transform: uppercase;
     font-size: 50px;
+    font-family: 'Montserrat';
 
 }
+
+h6 {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-family: 'Montserrat';
+}
+
 .logo img{
     width: 90%;
 }
